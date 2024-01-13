@@ -1,11 +1,13 @@
-
+import "./pokemons.css"
 
 const Pokemons=function ({image,name}) {
     return (
-       <div>
+        <>
+       <div className="pokemons">
            <h2>{name}</h2>
            <img src={image}></img>
        </div>
+        </>
     )
   
 }

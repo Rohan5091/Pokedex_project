@@ -1,7 +1,23 @@
 .PokemonList_rapper{
-  width: 100vw;
   height: auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
+}
+.Controller{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 3rem 0;
+}
+.Controller>button{
+   padding: 0.5rem 1.5rem;
+   margin-left: 1rem;
+   background-color: cornflowerblue;
+   border-radius: 5px;
+   font-size: 1.5rem;
+}
+.Controller>button:active{
+   color: azure;
 }
