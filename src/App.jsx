@@ -1,14 +1,17 @@
 
+import { Link } from 'react-router-dom'
 import './App.css'
-import Pokemonlist from './Componets/Pokemonlist/Pokemonlist.jsx'
 import Searchresult from "./Componets/Search/search.jsx"
+import CustomeRoutes from './Routes/customRoutes.jsx'
 function App() {
   
 
   return (
     <div>
-       <Searchresult/>
-       <Pokemonlist/>
+       <Link to={"/"}>
+       <h1 className="PokeHeading" >Pokedex</h1>
+       </Link>
+       <CustomeRoutes/>
     </div>
   )
 }

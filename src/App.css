@@ -7,3 +7,12 @@ html , body{
     height: 100%;
     width: 100%;
 }
+.PokeHeading{
+    padding-top: 3rem;
+    margin: 2rem;
+    text-align: center;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
