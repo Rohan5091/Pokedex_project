@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
        <Link to={"/"}>
-       <h1 className="PokeHeading" >Pokedex</h1>
+         <h1 className="PokeHeading" >Pokedex</h1>
        </Link>
        <CustomeRoutes/>
     </div>
